@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700');
+
 body {
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-family: Roboto;
     margin: 0px;
     padding: 0px;
     background-color: #081C24;
