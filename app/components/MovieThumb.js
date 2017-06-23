@@ -21,7 +21,7 @@ const MovieThumb = (props) => {
           <p className='movie-title'>{props.movie.title}</p>
           <Genre movieGenre={props.movie.genre_ids} />            
         </div>
-        <img className='movie-poster' src={'https://image.tmdb.org/t/p/w300/' + props.movie.backdrop_path }/>                          
+        <img className='movie-poster' src={'https://image.tmdb.org/t/p/w300' + props.movie.backdrop_path }/>                          
       </Link> 
   )
 }

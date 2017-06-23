@@ -56,7 +56,7 @@ FeaturedCrew.propTypes = {
 
 const CoverInfo = (props) => {
 
-  var coverImage = {backgroundImage: 'url(https://image.tmdb.org/t/p/w1280/' + props.movieDetails.backdrop_path + ')'};
+  var coverImage = {backgroundImage: 'url(https://image.tmdb.org/t/p/w1280' + props.movieDetails.backdrop_path + ')'};
   var genreId = props.movieDetails.genres.map((genre) => {
     return genre.id;
   })

@@ -29,7 +29,7 @@ export default class Profile extends React.Component {
     }
 
     return (
-      <div className='profile-pic' style={{backgroundImage: 'url(https://image.tmdb.org/t/p/w185/' + this.state.picture + ')'}} ></div>
+      <div className='profile-pic' style={{backgroundImage: 'url(https://image.tmdb.org/t/p/w185' + this.state.picture + ')'}} ></div>
     )
   }
   
